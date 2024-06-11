@@ -1,0 +1,40 @@
+Halloween structure
+Plan: Countdown days to a few set  halloween dates using php
+We'll be showcasing the current page information that's here and/or alike: https://www.kalender-365.se/helgdagar/halloween.html
+
+Template structure
+HTML Structure (index.php) -- Starting page/landing page
+Start HTML document
+Add meta data for character set and viewport settings
+Set page title
+Add CSS styles for the table and headers
+Begin the body of the HTML document
+Add a heading for the calendar
+Create a table
+Add table headers
+Include the PHP script to generate table rows
+End HTML document
+
+Code structure/Visable template structure
+Start HTML document
+    ADD meta charset UTF-8
+    ADD meta viewport settings such as responsive behavior
+    SET title as Halloween Calendar (Meta)
+
+Code structure
+    ADD CSS styles without css document (<style>
+        SET table width to 100% (Make sure of width per device)
+        SET table border-collapse to collapse
+        SET border, padding, and text alignment for table headers and cells etc.
+        SET background color for table headers
+        SET alternating row colors for readability (Odd/even), we do for the current page using style
+
+Begin html body
+    ADD heading Halloween Calendar, front text/visible text
+
+    CREATE table with ID table, we do for whole page
+        ADD table headers: Date, Year, Day, Week number and days remaining
+        
+        INCLUDE PHP script to generate table rows within page, skipping importation from a different source/page
+
+End html
